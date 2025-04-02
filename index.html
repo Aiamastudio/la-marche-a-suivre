@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>La Marche à Suivre™</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      background-color: #ffffff;
+      width: 100%;
+      height: 100%;
+      font-family: 'Helvetica Neue', sans-serif;
+      overflow: hidden;
+      transition: background-color 0.3s ease-in-out;
+    }
+
+    .screen {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .title {
+      font-size: 24px;
+      color: rgba(0, 0, 0, 0.4);
+      margin-bottom: 8px;
+    }
+
+    .subtitle {
+      font-size: 12px;
+      color: rgba(0, 0, 0, 0.25);
+      margin-bottom: 60px;
+    }
+
+    .button-container {
+      position: absolute;
+      bottom: 32px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    .continue-btn {
+      background-color: rgba(255, 255, 255, 0.1);
+      color: rgba(0, 0, 0, 0.3);
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      border-radius: 28px;
+      padding: 10px 28px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="screen">
+    <div class="title">La Marche à Suivre™</div>
+    <div class="subtitle">Scrollez, respirez, n’attendez rien.</div>
+    <div class="button-container">
+      <button class="continue-btn">Continuer</button>
+    </div>
+  </div>
+
+</body>
+</html>
